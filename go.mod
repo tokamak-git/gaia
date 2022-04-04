@@ -121,8 +121,10 @@ require (
 )
 
 replace (
-	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.44.2
+	github.com/cosmos/cosmos-sdk => /Users/sergio/work/scm/github/cosmos-sdk // v0.44.2
+	github.com/cosmos/ibc-go/v2 => /Users/sergio/work/scm/github/ibc-go //v2.0.3
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	github.com/tecbot/gorocksdb => github.com/cosmos/gorocksdb v1.2.0
+	github.com/tendermint/tendermint => /Users/sergio/work/scm/github/tmint_go2 //v0.34.14
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )
